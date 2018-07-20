@@ -3,6 +3,7 @@ import UIKit
 open class Event: EventDescriptor {
   public var startDate = Date()
   public var endDate = Date()
+  public var guid = ""
   public var regardingObjectId = ""
   public var isAllDay = false
   public var text = ""
