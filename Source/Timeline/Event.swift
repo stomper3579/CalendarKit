@@ -1,6 +1,6 @@
 import UIKit
 
-enum calendarEventType {
+enum CalendarEventType {
   case appointment
   case blocktime
 }
@@ -10,6 +10,7 @@ open class Event: EventDescriptor {
   public var endDate = Date()
   public var guid = ""
   public var regardingObjectId = ""
+  public var calendarEventType: CalendarEventType?
   public var isAllDay = false
   public var text = ""
   public var attributedText: NSAttributedString?
