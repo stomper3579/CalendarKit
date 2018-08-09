@@ -1,6 +1,6 @@
 import UIKit
 
-enum CalendarEventType {
+public enum CalendarEventType {
   case appointment
   case blocktime
 }
