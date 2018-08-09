@@ -1,5 +1,10 @@
 import UIKit
 
+enum calendarEventType {
+  case appointment
+  case blocktime
+}
+
 open class Event: EventDescriptor {
   public var startDate = Date()
   public var endDate = Date()
