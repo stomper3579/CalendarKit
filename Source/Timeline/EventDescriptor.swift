@@ -5,6 +5,7 @@ public protocol EventDescriptor {
   var endDate: Date {get}
   var regardingObjectId: String {get}
   var guid: String {get}
+  var calendarEventType: CalendarEventType {get}
   var isAllDay: Bool {get}
   var text: String {get}
   var attributedText: NSAttributedString? {get}
